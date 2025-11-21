@@ -9,3 +9,4 @@ uvicorn
 streamlit
 python-multipart
 pydantic
+scikit-learn==1.6.1
