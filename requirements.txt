@@ -1,6 +1,5 @@
 numpy
 pandas
-scikit-learn
 joblib
 seaborn
 matplotlib
@@ -10,3 +9,4 @@ streamlit
 python-multipart
 pydantic
 scikit-learn==1.6.1
+
