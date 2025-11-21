@@ -32,7 +32,10 @@ if st.button("Predict Price"):
     }
 
     try:
-        response = requests.post("https://car-price-predictor-fastapi-streamlit-1.onrender.com", json=payload)
+        response = requests.post(
+            "https://car-price-predictor-fastapi-streamlit-1.onrender.com/predict",
+            json=payload
+        )
 
         if response.status_code == 200:
             price = response.json()['predicted_price']
